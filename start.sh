@@ -27,5 +27,7 @@ then
 fi
 
 cd /server
-echo "Start Mincraft Spigot Server"
-java -Xmx1024M -Xms1024M -jar spigot-server.jar
+echo "Start Mincraft Spigot Server - Memory $MEMORY"
+startcommand="java -Xmx${MEMORY}M -Xms${MEMORY}M -jar spigot-server.jar"
+echo $startcommand
+bash -c "$startcommand"
