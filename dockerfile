@@ -1,5 +1,5 @@
 ARG IMAGE_NAME="openjdk"
-ARG IMAGE_TAG="21-slim-bullseye"
+ARG IMAGE_TAG="23-slim-bullseye"
 
 FROM $IMAGE_NAME:$IMAGE_TAG as build
 
