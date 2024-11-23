@@ -49,9 +49,9 @@ Here you can change the following settings:
 - Simulation Distance sets the number of chunks that will run in-game processes (even if they’re not visible): load entities, grow crops, run automatic contraptions, etc: `simulation-distance=6`
 - View Distance sets the number of chunks that are visible in all directions around a player: `view-distance=6`
 
-Download and install the StackMob.jar (Current version StackMob-5.8.8.jar). You need to change the access right in the `data` directory: `sudo chmod -R 777 data`.
+Download and install the StackMob.jar (Current version StackMob-5.8.10.jar). You need to change the access right in the `data` directory: `sudo chmod -R 777 data`.
 
 - [https://ci.codemc.io/job/Nathat23/job/StackMob-5/](https://ci.codemc.io/job/Nathat23/job/StackMob-5/)
-- [https://ci.codemc.io/job/Nathat23/job/StackMob-5/lastSuccessfulBuild/artifact/target/StackMob-5.8.8.jar](https://ci.codemc.io/job/Nathat23/job/StackMob-5/lastSuccessfulBuild/artifact/target/StackMob-5.8.8.jar)
+- [https://ci.codemc.io/job/Nathat23/job/StackMob-5/lastSuccessfulBuild/artifact/target/StackMob-5.8.10.jar](https://ci.codemc.io/job/Nathat23/job/StackMob-5/lastSuccessfulBuild/artifact/target/StackMob-5.8.10.jar)
 
 You can also increase the memory which can be used by the server with the MEMORY environment variable. The value is the size im MB (1024 = 1 GB, 4096 = 4GB).
